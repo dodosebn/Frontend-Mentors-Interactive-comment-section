@@ -16,10 +16,9 @@ const Data = [{
         score: 12,
         user: {
           image: {
-            png: "./images/avatars/image-amyrobson.png",
-            webp: "./images/avatars/image-amyrobson.webp",
+            png: "https://lh3.googleusercontent.com/a/ACg8ocKT82fCP2v_LFwZHKLhuN3ohQ8kda6_FxXcQB7v4imySuda2Q1-=s192-c-rg-br100",
           },
-          username: "amyrobson",
+          username: "Dodos_ebn",
         },
         replies: [],
       },
@@ -30,8 +29,7 @@ const Data = [{
         score: 5,
         user: {
           image: {
-            png: "./images/avatars/image-maxblagun.png",
-            webp: "./images/avatars/image-maxblagun.webp",
+            png: "https://plus.unsplash.com/premium_photo-1664541336692-e931d407ba88?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           },
           username: "maxblagun",
         },
@@ -44,8 +42,7 @@ const Data = [{
             replyingTo: "maxblagun",
             user: {
               image: {
-                png: "../images/avatars/image-ramsesmiron.png",
-                webp: "../images/avatars/image-ramsesmiron.webp",
+                png: "https://plus.unsplash.com/premium_photo-1664541336572-0da21708cdc6?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               },
               username: "ramsesmiron",
             },
@@ -58,8 +55,7 @@ const Data = [{
             replyingTo: "ramsesmiron",
             user: {
               image: {
-                png: "../images/avatars/image-juliusomo.png",
-                webp: "../images/avatars/image-juliusomo.webp",
+                png: "https://plus.unsplash.com/premium_photo-1664541336661-e67e3dbc9ed7?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               },
               username: "juliusomo",
             },

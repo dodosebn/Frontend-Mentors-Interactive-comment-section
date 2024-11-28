@@ -3,3 +3,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.whiteCard{
+    @apply bg-white rounded-md;
+}
+.userDetails{
+    @apply flex p-2 pl-4 space-x-3 items-center;
+}
+.userName{
+    @apply text-darkBlue font-semibold;
+}
+.createdAt{
+    @apply text-grayishBlue items-center;
+}
+.commentCont{
+    @apply pl-4 pr-4 font-medium;
+}

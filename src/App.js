@@ -6,17 +6,18 @@ import Input from './components/input';
 
 const App = () => {
   const [data, setData] = useState(Data[0]); 
-console.log(data);
 
   return (
-    <div className="comments-container">
-      <h1 className="text-2xl font-bold mb-4">Comments Section</h1>
-      {data.comments.map((comment) => (
-        <Comment key={comment.id} comment={comment} />
+    <div className="bg-lightGray">
+         {data.comments.map((comment) => (
+      <Comment
+      key={comment.id}
+      comment={comment}
+      setData={setData} 
+    />
+    
       ))}
-              <div>
                 <Input data={data} setData={setData}/>
-              </div>
 
     </div>
   );
