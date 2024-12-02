@@ -1,12 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-const Buttons = ({handleClick, type, className, icon}) => {
+export default function Buttons({ handleClick, type, className, icon, iconClass }) {
   return (
-    <div className={className} onClick={handleClick}>
-        <img src={icon} alt={type} className='object-cover'/>
-      {type}
-    </div>
-  )
+    <button className={`${className} flex gap-1 items-center`} onClick={handleClick}>
+      <img src={icon} alt={type} className={`${iconClass} object-contain`} />
+    <span className='font-medium'> {type}</span> 
+    </button>
+  );
 }
-
-export default Buttons;

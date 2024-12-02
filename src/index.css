@@ -8,7 +8,7 @@
     @apply bg-white rounded-md;
 }
 .userDetails{
-    @apply flex p-2 pl-4 space-x-3 items-center;
+    @apply flex p-2 pl-4 space-x-3 items-center lg:pl-20;
 }
 .userName{
     @apply text-darkBlue font-semibold;
@@ -17,5 +17,5 @@
     @apply text-grayishBlue items-center;
 }
 .commentCont{
-    @apply pl-4 pr-4 font-medium;
+    @apply pl-4 pr-4 font-medium lg:pl-20;
 }
