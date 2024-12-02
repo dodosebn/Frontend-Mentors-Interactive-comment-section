@@ -128,13 +128,15 @@ const onCancel = () => {
               <Buttons
                 icon={PlusIcon}
                 handleClick={() => setCount((prev) => prev + 1)}
-                iconClass={'hover:text-moderateBlue'}
+                className={'hover:text-moderateBlue'}
+                iconClass={'hover:filter hover:brightness-75 transition-all duration-300'}
               />
               <h1 className="text-moderateBlue font-bold">{count}</h1>
               <Buttons
                 icon={minusIcon}
                 handleClick={() => setCount((prev) => prev - 1)}
-                iconClass={'hover:text-moderateBlue'}
+                className={'hover:text-moderateBlue'}
+                iconClass={'hover:filter hover:brightness-75 transition-all duration-300'}
               />
             </div>
             <div className={`${isUserComment ? 'left-[45rem]' : 'left-[49rem]'} pr-4 lg:absolute  ${isEditing ? 'bottom-48' : "bottom-24"}`}>
@@ -204,13 +206,15 @@ const onCancel = () => {
                   <Buttons
                 icon={PlusIcon}
                 handleClick={() => setCount((prev) => prev + 1) }
-                iconClass={'hover:text-moderateBlue'}
+                className={'hover:text-moderateBlue'}
+                iconClass={'hover:filter hover:brightness-75 transition-all duration-300'}
               />
               <h1 className="text-moderateBlue font-bold">{count}</h1>
               <Buttons
                 icon={minusIcon}
                 handleClick={() => setCount((prev) => prev - 1)}
-                iconClass={'hover:text-moderateBlue'}
+                className={'hover:text-moderateBlue'}
+                iconClass={'hover:filter hover:brightness-75 transition-all duration-300'}
               />
                     </div>
                     <div className={`${isUserComment ? 'left-[45rem]' : 'left-[48rem]'} pr-4 lg:absolute  ${isEditing ? 'bottom-48' : "bottom-24"}`}>
@@ -254,7 +258,8 @@ const onCancel = () => {
             placeholder="Write your reply here"
             className="w-full p-2 border border-grayishBlue outline-none rounded-md"
           />
-        <Buttons handleClick={handleReplySubmit} type={'Reply'} className={'bg-moderateBlue text-white p-2 px-4 rounded-md lg:ml-[48.5rem] ml-[15.5rem] lg:mt-2' } iconClass={'hidden'}/>
+        <Buttons handleClick={handleReplySubmit} type={'Reply'}
+         className={'bg-moderateBlue text-white p-2 px-4 rounded-md lg:ml-[48.5rem] ml-[15.5rem] lg:mt-2' } iconClass={'hidden'}/>
         </div>
         
       )}

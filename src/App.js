@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Data from './data'; 
 import Comment from './components/comment';
 import Input from './components/useInput';
+import Footer from './components/footerMessage';
 const App = () => {
   const [data, setData] = useState(Data[0]); 
 
@@ -15,7 +16,11 @@ const App = () => {
           isUserComment={comment.isUserComment}   
         />
       ))}
-      <Input data={data} setData={setData} type={'send'} />
+      <>
+      <Input data={data} setData={setData}/>
+      </>
+     
+    <Footer name='ORJI DOMINION'/>
     </div>
   );
 }
